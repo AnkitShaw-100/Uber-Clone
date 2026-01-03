@@ -1,5 +1,0 @@
-npx nodemon 
-nodemon server.js 
-
-# helps to generate a strong random string, at least 32+ characters which can be used as JWT_SCERET 
-node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
